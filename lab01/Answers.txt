@@ -1,0 +1,11 @@
+cd cs180
+mkdir lab1
+cd lab1
+touch Question.txt
+cd ..
+rm -r lab1
+
+File: /u/u88/liu734/cs180/lab01/HelloWOrld.java  [line: 2]
+Error: /u/u88/liu734/cs180/lab01/HelloWOrld.java:2: invalid method declaration; return type required
+
+

@@ -1,0 +1,25 @@
+#!/bin/bash
+if [ "x$1" == "x" ]; then
+	echo Run this from the parent directory of your lab section directories
+	echo Usage: testLab04 sectionNumber 
+	exit
+fi
+if [ "x$2" != "xx" ]; then
+	$0 $1 x &> results.txt
+	exit
+fi
+BASE=$1
+SCRIPTLOC=`pwd`
+cd $BASE
+FILES=`ls`
+for FILE in $FILES; do
+	echo User: ${FILE}
+	LABLOC=`find ${FILE} -name Lab04Salami.java | sed s/Lab04Salami.java//`
+	cd ${LABLOC}
+	javac Lab04Salami.java
+	java Lab04Salami < ${SCRIPTLOC}/testLab04In.txt > testResults.txt
+	diff testResults.txt ${SCRIPTLOC}/testLab04Out.txt
+	diff Answers.txt ${SCRIPTLOC}/Answers.txt
+	rm testResults.txt
+	cd ${SCRIPTLOC}/${BASE}
+done

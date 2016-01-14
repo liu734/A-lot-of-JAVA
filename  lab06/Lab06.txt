@@ -1,0 +1,8 @@
+a=R8
+b=L8
+c=aF4b
+d=cR2
+e=dddd
+f=F4R2
+g=ffff
+s=S1

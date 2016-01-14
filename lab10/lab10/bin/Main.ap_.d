@@ -1,0 +1,13 @@
+/u/u88/liu734/cs180/lab10/lab10/bin/Main.ap_ \
+ : /u/u88/liu734/cs180/lab10/lab10/res/drawable-hdpi/icon.png \
+/u/u88/liu734/cs180/lab10/lab10/res/drawable-hdpi/pic.jpg \
+/u/u88/liu734/cs180/lab10/lab10/res/drawable-ldpi/icon.png \
+/u/u88/liu734/cs180/lab10/lab10/res/drawable-ldpi/pic.jpg \
+/u/u88/liu734/cs180/lab10/lab10/res/drawable-mdpi/icon.png \
+/u/u88/liu734/cs180/lab10/lab10/res/drawable-mdpi/pic.jpg \
+/u/u88/liu734/cs180/lab10/lab10/res/layout/main.xml \
+/u/u88/liu734/cs180/lab10/lab10/res/values/strings.xml \
+/u/u88/liu734/cs180/lab10/lab10/bin/res/drawable-hdpi/icon.png \
+/u/u88/liu734/cs180/lab10/lab10/bin/res/drawable-ldpi/icon.png \
+/u/u88/liu734/cs180/lab10/lab10/bin/res/drawable-mdpi/icon.png \
+/u/u88/liu734/cs180/lab10/lab10/AndroidManifest.xml \

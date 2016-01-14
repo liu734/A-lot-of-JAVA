@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/layout"
+	>
+	
+	<TextView android:layout_width="fill_parent" android:id="@+id/text"
+		android:layout_height="wrap_content" android:textSize="30sp" />
+		
+	<Button android:text="Button"
+	    android:id="@+id/button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		
+	<fall2011.lab02.AnimateText
+    android:id="@+id/animation"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	/>
+		
+</LinearLayout>

@@ -1,0 +1,8 @@
+Ex13-1
+step1 
+
+a equals()is used to detemine if the two Child object are equal.
+
+b Output is "Inside of Child.equals" if two Chid object equal, and no output when not equal.
+
+c Because only child t3 is equal to t3 , then output is "Inside of Child.equals", at the same time no output at comparation with other pairs comparation.

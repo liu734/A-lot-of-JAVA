@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ "${1}" == "compile" ]; then
+	javac -classpath :finch.jar $2.java
+elif [[ "${1}" == "run" ]]; then
+	java -Djava.library.path=. -classpath finch.jar:jnaerator-0.9.5.jar: $2
+else
+	echo "Syntax: finch run|compile PATH"
+fi
